@@ -62,3 +62,5 @@ github "evernote",    "2.0.7"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "iterm2",      "1.2.4"
