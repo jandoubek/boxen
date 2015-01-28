@@ -57,7 +57,6 @@ node default {
   include git
   include hub
   include nginx
-  include evernote
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -75,6 +74,10 @@ node default {
   class { 'intellij':
   edition => 'ultimate',
     version => '14.0.2'
+  }
+  
+  class { 'evernote':
+    sourceUri => 'https://cdn1.evernote.com/mac-smd/public/Evernote_RELEASE_6.0.5_451190.dmg'
   }
 
   file { "${boxen::config::srcdir}/our-boxen":
