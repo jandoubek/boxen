@@ -57,7 +57,7 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 github "intellij",    "1.5.1"   
-github "evernote",    "2.0.4"
+github "evernote",    "2.0.7"
 
 
 # Optional/custom modules. There are tons available at
