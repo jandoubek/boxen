@@ -59,6 +59,7 @@ node default {
   include nginx
   include iterm2::dev
   include iterm2::colors::arthur
+  include java
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
